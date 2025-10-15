@@ -11,7 +11,7 @@ import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 import { FaRobot, FaUserShield, FaKey, FaMobileAlt } from 'react-icons/fa';
-import avatar from './avatar.jpg';
+import avatar from './avatar.png';
 
 export const gridOrderImage = (props) => (
   <div>

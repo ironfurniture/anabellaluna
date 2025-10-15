@@ -4,7 +4,7 @@ import { FaHome, FaTasks, FaBell, FaComments } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import avatar from '../data/avatar.jpg';
+import avatar from '../data/avatar.png';
 import { Propiedades, Tareas, Alertas, ChatInterno, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
 
@@ -70,9 +70,9 @@ const Navbar = () => {
               alt="user-profile"
             />
             <p>
-              <span className="text-gray-400 text-14">Hi,</span>{' '}
+              <span className="text-gray-400 text-14">Hola</span>{' '}
               <span className="text-gray-400 font-bold ml-1 text-14">
-                Michael
+                Anabella!
               </span>
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
